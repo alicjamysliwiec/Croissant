@@ -3,7 +3,7 @@ body{
     background-color:#F7E0BB;
 }
 
-p{
+p, .contact{
     display: block;
     margin:15px auto;
     text-align: center;
@@ -17,4 +17,17 @@ p{
 
 .crs{
     max-width: 60%;
+}
+
+.l{
+    font-family: monospace;
+    color:brown;
+    transition: 200ms all ease-in-out;
+    text-decoration: none;
+}
+
+.l:hover{
+    font-weight: bold;
+    text-decoration: underline;
+    color:brown;
 }
